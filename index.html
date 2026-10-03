@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>サービス管理責任者 求人｜沼津市｜就労継続支援B型 HOPE CREW</title>
-  <meta name="description" content="静岡県沼津市の就労継続支援B型事業所「HOPE CREW」（合同会社ヒューマンテック）のサービス管理責任者（正社員）採用情報。月給30万〜40万円、土日祝休み・年間休日120日、残業月10時間程度。AIやITスキル支援に特化した事業所です。書類選考なし、見学のみも歓迎。">
+  <meta name="description" content="静岡県沼津市の就労継続支援B型事業所「HOPE CREW」（合同会社ヒューマンテック）のサービス管理責任者（正社員）採用情報。月給30万〜40万円、土日祝休み・年間休日120日、残業月10時間程度。AIやITスキル支援に特化した事業所です。見学のみも歓迎。">
   
   <!-- Google Fonts: Noto Sans JP -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -350,7 +350,7 @@
 
     @media (min-width: 880px) {
       .hero-grid {
-        grid-template-columns: 1.15fr 0.85fr;
+        grid-template-columns: 1.25fr 0.75fr;
         gap: 36px;
       }
     }
@@ -374,18 +374,23 @@
     }
 
     .hero-h1 {
-      font-size: 24px;
+      font-size: 22px;
       font-weight: 800;
-      line-height: 1.35;
+      line-height: 1.45;
       letter-spacing: -0.01em;
       margin-bottom: 12px;
     }
 
     @media (min-width: 768px) {
       .hero-h1 {
-        font-size: 34px;
-        line-height: 1.35;
+        font-size: 32px;
+        line-height: 1.4;
       }
+    }
+
+    .nowrap-block {
+      display: inline-block;
+      white-space: nowrap;
     }
 
     .hero-h1 span.highlight {
@@ -475,6 +480,15 @@
       font-size: 17px;
     }
 
+    .badge-detail {
+      display: block;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-muted);
+      margin-top: 3px;
+      white-space: nowrap;
+    }
+
     .hero-cta-box {
       margin-top: 20px;
       display: flex;
@@ -541,11 +555,12 @@
       flex-direction: column;
       align-items: center;
       position: relative;
+      width: 100%;
     }
 
     .hero-image-frame {
       width: 100%;
-      max-width: 380px;
+      max-width: 400px;
       aspect-ratio: 4 / 3;
       border-radius: var(--radius-lg);
       overflow: hidden;
@@ -566,6 +581,13 @@
       font-size: 12px;
       color: #94a3b8;
       text-align: center;
+      white-space: nowrap;
+    }
+
+    @media (max-width: 440px) {
+      .hero-image-caption {
+        font-size: 10.5px;
+      }
     }
 
     /* ==========================================================================
@@ -1531,7 +1553,7 @@
           
           <h1 class="hero-h1">
             あなたのサビ管経験を、<br>
-            <span class="highlight">ゆとりある環境</span>と<span class="highlight">正当な評価</span>で活かす。
+            <span class="nowrap-block"><span class="highlight">ゆとりある環境</span>と</span><span class="nowrap-block"><span class="highlight">正当な評価</span>で活かす。</span>
           </h1>
           
           <p class="hero-job-title">
@@ -1545,7 +1567,10 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
               </svg>
               <div class="badge-sub">給与</div>
-              <div class="badge-main"><span class="badge-em">月給30万〜40万円</span></div>
+              <div class="badge-main">
+                <span class="badge-em">月給30万〜40万円</span>
+                <span class="badge-detail">賞与年2回・昇給あり</span>
+              </div>
             </div>
 
             <div class="hero-badge-card">
@@ -1553,7 +1578,10 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
               </svg>
               <div class="badge-sub">休日</div>
-              <div class="badge-main"><span class="badge-em">土日祝休み・年間休日120日</span></div>
+              <div class="badge-main">
+                <span class="badge-em">土日祝休み</span>
+                <span class="badge-detail">年間休日120日</span>
+              </div>
             </div>
 
             <div class="hero-badge-card">
@@ -1561,7 +1589,10 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
               </svg>
               <div class="badge-sub">残業</div>
-              <div class="badge-main"><span class="badge-em">残業月10時間程度</span></div>
+              <div class="badge-main">
+                <span class="badge-em">残業月10h程度</span>
+                <span class="badge-detail">17時までに退社可能</span>
+              </div>
             </div>
           </div>
 
@@ -1578,7 +1609,7 @@
             </a>
           </div>
 
-          <p class="hero-note">※ 書類選考なし・面接1回のみ。まずは事業所見学のみのご連絡も歓迎いたします。</p>
+          <p class="hero-note">※ まずは事業所見学のみのご連絡も歓迎いたします。</p>
         </div>
 
         <!-- 人物イメージ画像（ファーストビュー） -->
@@ -2021,19 +2052,13 @@
             <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
             </svg>
-            書類選考なし
-          </div>
-          <div class="flow-point-badge">
-            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
-            </svg>
             まずは見学のみでも大歓迎
           </div>
           <div class="flow-point-badge">
             <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
             </svg>
-            面接は1回のみ
+            面接後5日以内に結果連絡
           </div>
         </div>
 
@@ -2072,9 +2097,9 @@
           <!-- Step 3 -->
           <div class="flow-step-box">
             <span class="step-num">STEP 3</span>
-            <div class="step-title">面接（1回）</div>
+            <div class="step-title">面接</div>
             <p class="step-desc">
-              書類選考はありません。これまでの経験やお仕事への想いをお聞かせください。
+              これまでのご経験やお仕事への想いをお聞かせください。
             </p>
           </div>
 
